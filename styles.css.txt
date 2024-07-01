@@ -1,0 +1,16 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+#noButton:hover {
+  position: relative;
+  left: calc(-50px + 100px * var(--random));
+}
+
