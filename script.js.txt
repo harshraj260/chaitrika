@@ -1,0 +1,5 @@
+const noButton = document.getElementById('noButton');
+
+noButton.addEventListener('mouseover', function() {
+  noButton.style.setProperty('--random', Math.random());
+});
